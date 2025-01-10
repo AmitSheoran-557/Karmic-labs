@@ -7,9 +7,9 @@ import lineImg from '../assets/images/png/lines-img.png'
 const UpcomingProjects = () => {
     return (
 
-        <div id='next' className="w-full mx-auto max-w-[1150px] xl:mt-24 lg:mt-20 md:mt-16 mt-12">
+        <div id='next' className="w-full mx-auto max-w-[1150px] xl:mt-[86px] lg:mt-20 md:mt-16 mt-12">
             <span className='relative justify-center items-center flex'>
-            <CustomHeading title="Upcoming Projects" className="xl:mb-12 relative lg:mb-10 md:mb-8 sm:mb-6 mb-1 text-white text-center" />
+            <CustomHeading title="Upcoming Projects" className="xl:mb-12 relative lg:mb-10 md:mb-8 sm:mb-6 mb-3 text-white text-center" />
             <img className='absolute lg:-top-7 md:-top-6 -top-5 mx-auto max-xl:max-w-96 max-lg:max-w-80 max-md:max-w-64' src={lineImg} alt="line-img" />
             </span>
             <div className="flex flex-wrap lg:mb-12 md:mb-10 sm:mb-7 mb-4 justify-center">
@@ -26,7 +26,7 @@ const UpcomingProjects = () => {
                     </div>
                 ))}
             </div>
-            <CustomButton title="View All" className="mx-auto hover:!bg-white hover:!text-black transition-all ease-linear duration-300 flex justify-center !bg-transparent !text-white border-white border" />
+            <CustomButton title="View All" className="mx-auto hover:!bg-white !leading-[120%] hover:!text-black transition-all ease-linear duration-300 flex justify-center !bg-transparent !text-white border-white border" />
         </div>
 
     )
