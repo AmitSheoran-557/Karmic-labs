@@ -11,9 +11,11 @@ module.exports = {
       },
       backdropBlur: {
         30: '30px',  
+        16: '16px',  
       },
       boxShadow: {
         'custom-one': '0px -1px 20px 0px #FFFFFF1A', 
+        'custom-two': '0px 4px 15px 0px #FFFFFF1A',
       },
       colors:{
         "light-black":"#1E1E1E",

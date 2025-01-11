@@ -35,7 +35,7 @@ const Header = () => {
             <div className={`flex xl:gap-[42px] lg:gap-9 gap-7 !text-black max-lg:text-white lg:max-h-max max-lg:fixed max-lg:top-0 max-lg:h-full max-lg:w-full max-lg:flex-col max-lg:bg-black max-lg:duration-300 max-lg:justify-center max-lg:items-center z-40 ${open ? "max-lg:left-0" : "max-lg:left-full"}`}>
                 {HEADER_LIST.map((obj, i) => (
                     <div key={i}>
-                        <a onClick={handleOpen} className="text-white hover:underline underline-offset-1" href={obj.link}> {obj.title}</a>
+                        <a onClick={handleOpen} className="text-white hover:underline underline-offset-2" href={obj.link}> {obj.title}</a>
                     </div>
                 ))}
                 <span onClick={handleOpen}>

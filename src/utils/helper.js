@@ -10,7 +10,10 @@ import Image5 from '../assets/images/png/project-sec-img-5.png'
 import Image6 from '../assets/images/png/project-sec-img-6.png'
 import Image7 from '../assets/images/png/project-sec-img-7.png'
 import Image8 from '../assets/images/png/project-sec-img-8.png'
-import { ServicesCardImgFive, ServicesCardImgFour, ServicesCardImgOne, ServicesCardImgThree, ServicesCardImgTwo } from './icons';
+import KarmicImgOne from '../assets/images/png/karmic-img-1.png'
+import KarmicImgTwo from '../assets/images/png/karmic-img-2.png'
+import KarmicImgThree from '../assets/images/png/karmic-img-3.png'
+import { ServicesCardImgFive, ServicesCardImgFour, ServicesCardImgOne, ServicesCardImgThree, ServicesCardImgTwo, ValuesImgOne, ValuesImgThree, ValuesImgTwo, InstagramLogo, TwitterLogo, FacebookLogo, YoutubeLogo } from './icons';
 
 export const HEADER_LIST = [
     {
@@ -117,5 +120,61 @@ export const PROJECT_SECTION_IMAGE_LIST = [
     },
     {
         image: Image8,
+    },
+];
+
+export const KARMIC_IMAGE_LIST = [
+    {
+        image: KarmicImgOne,
+        alt: "karmic-img-1"
+    },
+    {
+        image: KarmicImgTwo,
+        alt: "karmic-img-2"
+    },
+    {
+        image: KarmicImgThree,
+        alt: "karmic-img-3"
+    },
+];
+
+export const VALUES_CARDS_LIST = [
+    {
+        image: <ValuesImgOne />,
+        title: "W3",
+        description: "Not your average degens. Karmic is lead by a team of Industry professionals with extensive backgrounds in web3 and web2. We are actively involved in all that we do. Boots on the ground. We know the ins and outs of the space, because we are building it.",
+    },
+    {
+        image: <ValuesImgTwo />,
+        title: "Blockchain Agnostic ",
+        description: "Our team of seasoned developers will help you to launch your project on the network of your choosing- be it ethereum, solana, polygon, etc..",
+    },
+    {
+        image: <ValuesImgThree />,
+        title: "Trust",
+        description: "Trustless and results driven development backed by a portfolio of success. You're the captain of the ship, and the keys are always in your hands.",
+    },
+];
+
+export const FOOTER_MEDIA_ICON_LIST = [
+    {
+        image: <InstagramLogo />,
+        alt: "instagram-logo",
+        link: "https://www.instagram.com/",
+    },
+    {
+        image: <TwitterLogo />,
+        alt: "twitter-logo",
+        link: "https://x.com/",
+    },
+    {
+        image: <FacebookLogo />,
+        alt: "facebook-logo",
+        link: "https://www.facebook.com/",
+    },
+    {
+        image: <YoutubeLogo />,
+        alt: "youtube-logo",
+        link: "https://www.youtube.com/",
     },
 ];
